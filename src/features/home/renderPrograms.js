@@ -24,7 +24,7 @@ export function renderPrograms() {
         </div>
 
         <div class="reveal mt-10 flex justify-center">
-          ${createButton({ label: "View Full Curriculum", href: "/pages/academics.html", variant: "ghost", icon: "arrow-right" })}
+          ${createButton({ label: "View Full Curriculum", href: "pages/academics.html", variant: "ghost", icon: "arrow-right" })}
         </div>
 
       </div>

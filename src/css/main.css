@@ -61,7 +61,7 @@ body {
 ====================================== */
 
 .pattern-bg {
-  background-image: url("/src/assets/images/pattern.svg");
+  background-image: url("../assets/images/pattern.svg");
   background-repeat: repeat;
   background-size: 90px;
 }

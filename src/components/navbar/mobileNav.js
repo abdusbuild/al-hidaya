@@ -18,7 +18,7 @@ export function createMobileNav() {
         id="mobilePanel"
       >
         <div class="flex items-center justify-between border-b border-[#E7E3DC] px-5 py-5">
-          <img src="/public/assets/logo.svg" alt="${SCHOOL.name}" class="h-10 w-10" />
+          <img src="public/assets/logo.svg" alt="${SCHOOL.name}" class="h-10 w-10" />
           <button id="mobileCloseBtn" type="button" aria-label="Close menu" class="rounded-full p-2 text-[#1B1B1B] hover:bg-[#F5F3EE]">
             <i data-lucide="x" class="h-6 w-6"></i>
           </button>

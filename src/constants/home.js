@@ -6,7 +6,7 @@ export const HERO_SLIDES = [
     subtitle:
       "An Islamic cum English medium school on the CBSE pattern, nurturing knowledge, character and Deen together for the children of Nawadih, Aurangabad.",
     ctaLabel: "Apply for Admission",
-    ctaHref: "/pages/admissions.html",
+    ctaHref: "pages/admissions.html",
   },
   {
     id: 1,
@@ -15,7 +15,7 @@ export const HERO_SLIDES = [
     subtitle:
       "From Qaida and Tajweed to CBSE academics, we build strong foundations in Deen and Dunya in a caring, disciplined environment.",
     ctaLabel: "Explore Academics",
-    ctaHref: "/pages/academics.html",
+    ctaHref: "pages/academics.html",
   },
   {
     id: 2,
@@ -24,7 +24,7 @@ export const HERO_SLIDES = [
     subtitle:
       "Al-Hidayah means 'guidance' — our mission is to raise confident, well-mannered students who are proud of their faith and ready for the world.",
     ctaLabel: "Visit Our Gallery",
-    ctaHref: "/pages/gallery.html",
+    ctaHref: "pages/gallery.html",
   },
 ];
 
@@ -39,7 +39,7 @@ export const ABOUT_PREVIEW = {
     "Separate, caring sections for boys and girls",
   ],
   ctaLabel: "More About Us",
-  ctaHref: "/pages/about.html",
+  ctaHref: "pages/about.html",
 };
 
 export const HIGHLIGHTS = [
@@ -182,7 +182,7 @@ export const CTA_BANNER = {
   description:
     "Admissions are open at Al-Hidayah Foundation School. Reach out today to learn more or schedule a visit.",
   primaryLabel: "Apply Now",
-  primaryHref: "/pages/admissions.html",
+  primaryHref: "pages/admissions.html",
   secondaryLabel: "Contact Us",
-  secondaryHref: "/pages/contact.html",
+  secondaryHref: "pages/contact.html",
 };

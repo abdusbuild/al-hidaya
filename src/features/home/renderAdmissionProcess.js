@@ -26,7 +26,7 @@ export function renderAdmissionProcess() {
         </div>
 
         <div class="reveal flex justify-center">
-          ${createButton({ label: "See Full Admission Guide", href: "/pages/admissions.html", variant: "primary", icon: "arrow-right" })}
+          ${createButton({ label: "See Full Admission Guide", href: "pages/admissions.html", variant: "primary", icon: "arrow-right" })}
         </div>
 
       </div>

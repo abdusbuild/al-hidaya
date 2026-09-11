@@ -46,7 +46,7 @@ function createSlide(slide, index) {
 
         <div class="mt-8 flex flex-wrap items-center gap-4">
           ${createButton({ label: slide.ctaLabel, href: slide.ctaHref, variant: "secondary", icon: "arrow-right" })}
-          ${createButton({ label: "Call the School", href: "/pages/contact.html", variant: "outline" })}
+          ${createButton({ label: "Call the School", href: "pages/contact.html", variant: "outline" })}
         </div>
       </div>
     </div>
