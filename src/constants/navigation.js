@@ -1,10 +1,10 @@
 export const NAV_LINKS = [
-  { label: "Home", href: "index.html", page: "home" },
-  { label: "About Us", href: "pages/about.html", page: "about" },
-  { label: "Academics", href: "pages/academics.html", page: "academics" },
-  { label: "Admissions", href: "pages/admissions.html", page: "admissions" },
-  { label: "Gallery", href: "pages/gallery.html", page: "gallery" },
-  { label: "Contact", href: "pages/contact.html", page: "contact" },
+  { label: "Home", href: "/index.html", page: "home" },
+  { label: "About Us", href: "/pages/about.html", page: "about" },
+  { label: "Academics", href: "/pages/academics.html", page: "academics" },
+  { label: "Admissions", href: "/pages/admissions.html", page: "admissions" },
+  { label: "Gallery", href: "/pages/gallery.html", page: "gallery" },
+  { label: "Contact", href: "/pages/contact.html", page: "contact" },
 ];
 
 export const SCHOOL = {
