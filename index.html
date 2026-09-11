@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- ==========================================
+       BASIC META
+  =========================================== -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="theme-color" content="#0B6E4F" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Al-Hidayah Foundation School" />
+
+  <!-- ==========================================
+       SEO
+  =========================================== -->
+
+  <title>Al-Hidayah Foundation School | Islamic Cum English Medium School, Aurangabad</title>
+
+  <meta
+    name="description"
+    content="Al-Hidayah Foundation School is an Islamic cum English medium school based on the CBSE pattern in Nawadih, Aurangabad, Bihar. Qur'an, Islamic Studies and quality academics for boys and girls." />
+
+  <meta
+    name="keywords"
+    content="Al-Hidayah Foundation School, Islamic school Aurangabad, CBSE school Bihar, Nawadih school, Qur'an school, Islamic cum English medium school" />
+
+  <link rel="canonical" href="https://alhidayahfoundationschool.example/" />
+
+  <!-- ==========================================
+       OPEN GRAPH
+  =========================================== -->
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Al-Hidayah Foundation School | Islamic Cum English Medium School" />
+  <meta property="og:description" content="Qur'an, Islamic Studies and CBSE-pattern academics for boys and girls in Nawadih, Aurangabad, Bihar." />
+  <meta property="og:url" content="https://alhidayahfoundationschool.example/" />
+  <meta property="og:site_name" content="Al-Hidayah Foundation School" />
+  <meta property="og:image" content="/public/assets/logo.svg" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- ==========================================
+       TWITTER / X
+  =========================================== -->
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Al-Hidayah Foundation School" />
+  <meta name="twitter:description" content="Islamic cum English medium school on the CBSE pattern in Nawadih, Aurangabad, Bihar." />
+  <meta name="twitter:image" content="/public/assets/logo.svg" />
+
+  <!-- ==========================================
+       FAVICON
+  =========================================== -->
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- ==========================================
+       STRUCTURED DATA (JSON-LD)
+  =========================================== -->
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "School",
+    "name": "Al-Hidayah Foundation School",
+    "alternateName": "Al-Hidayah Foundation Islamic Cum English Medium School",
+    "url": "https://alhidayahfoundationschool.example/",
+    "logo": "/public/assets/logo.svg",
+    "description": "An Islamic cum English medium school based on the CBSE pattern in Nawadih, Aurangabad, Bihar.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Beside Urdu Middle School, Nawadih",
+      "addressLocality": "Aurangabad",
+      "addressRegion": "Bihar",
+      "postalCode": "824101",
+      "addressCountry": "IN"
+    },
+    "sameAs": ["https://www.instagram.com/alhidayahfoundationschool/"]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What curriculum does Al-Hidayah Foundation School follow?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We follow an Islamic cum English medium curriculum based on the CBSE pattern, combining core academic subjects with Qur'an, Tajweed, Islamic Studies, Arabic and Urdu."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does the school have separate sections for boys and girls?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Al-Hidayah maintains separate sections for boys and girls in line with our Islamic values, while operating as one school community."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where is the school located?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The school is located beside Urdu Middle School, Nawadih, Aurangabad, Bihar, India - 824101."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- ==========================================
+       GOOGLE FONTS
+  =========================================== -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@300;400;500;600;700&family=Noto+Nastaliq+Urdu:wght@500;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- ==========================================
+       MAIN CSS
+  =========================================== -->
+
+  <link rel="stylesheet" href="/src/css/main.css" />
+
+  <!-- ==========================================
+       TAILWIND
+  =========================================== -->
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: "#0B6E4F",
+            primaryDark: "#084A35",
+            gold: "#E3A73B",
+            cream: "#FBF8F1",
+            ink: "#1B1B1B",
+          },
+          fontFamily: {
+            sans: ["Inter", "sans-serif"],
+            serif: ["Poppins", "sans-serif"],
+            urdu: ["Noto Nastaliq Urdu", "serif"],
+          },
+        },
+      },
+    };
+  </script>
+
+  <!-- ==========================================
+       LUCIDE ICONS
+  =========================================== -->
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body data-page="home" class="min-h-screen bg-white font-sans text-[#222222] antialiased">
+
+  <!-- ========================================= -->
+  <!-- Navbar -->
+  <!-- ========================================= -->
+
+  <div id="navbar-container" data-theme="light">
+    <!-- Static SEO fallback; replaced by JS on load -->
+    <nav aria-label="Primary" class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-6 lg:px-8">
+      <a href="/index.html">Al-Hidayah Foundation School</a>
+      <ul class="flex gap-6">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/pages/about.html">About</a></li>
+        <li><a href="/pages/academics.html">Academics</a></li>
+        <li><a href="/pages/admissions.html">Admissions</a></li>
+        <li><a href="/pages/gallery.html">Gallery</a></li>
+        <li><a href="/pages/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- ========================================= -->
+  <!-- Main -->
+  <!-- ========================================= -->
+
+  <main>
+    <div id="heroRoot"></div>
+
+    <div id="aboutPreviewSection"></div>
+    <div id="whyChooseSection"></div>
+    <div id="programsSection"></div>
+    <div id="facilitiesSection"></div>
+    <div id="admissionProcessSection"></div>
+    <div id="faqSection"></div>
+    <div id="ctaSection"></div>
+  </main>
+
+  <!-- ========================================= -->
+  <!-- Footer -->
+  <!-- ========================================= -->
+
+  <div id="footer"></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

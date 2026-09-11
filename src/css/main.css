@@ -1,0 +1,84 @@
+@import "../features/animations/animations.css";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+/* =====================================
+   NAVBAR THEME STATES
+====================================== */
+
+.navbar-light {
+  color: #1b1b1b;
+}
+
+.navbar-dark {
+  color: #ffffff;
+}
+
+/* =====================================
+   ACTIVE NAV LINK UNDERLINE
+====================================== */
+
+[data-nav].navbar-text {
+  position: relative;
+}
+
+[data-nav].navbar-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 2px;
+  background: #e3a73b;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 300ms ease, opacity 300ms ease;
+  opacity: 0;
+}
+
+[data-nav].navbar-text.active::after {
+  transform: scaleX(1);
+  opacity: 1;
+}
+
+/* =====================================
+   ISLAMIC PATTERN BACKGROUND
+====================================== */
+
+.pattern-bg {
+  background-image: url("/src/assets/images/pattern.svg");
+  background-repeat: repeat;
+  background-size: 90px;
+}
+
+/* =====================================
+   ACCORDION CHEVRON
+====================================== */
+
+.accordion-trigger[aria-expanded="true"] .accordion-chevron {
+  transform: rotate(180deg);
+}
+
+.accordion-chevron {
+  transition: transform 250ms ease;
+}
+
+.accordion-panel {
+  overflow: hidden;
+  transition: max-height 300ms ease;
+}
