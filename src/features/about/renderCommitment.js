@@ -12,7 +12,7 @@ export function renderCommitment() {
           <div class="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-[#0B6E4F]/10 text-[#0B6E4F]">
             <i data-lucide="heart-handshake" class="h-7 w-7"></i>
           </div>
-          <span class="mt-5 inline-flex items-center gap-2 rounded-full border border-[#0B6E4F]/20 bg-[#0B6E4F]/5 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#0B6E4F]">
+          <span class="mt-5 inline-flex items-center gap-2 rounded-full bg-[#0B6E4F]/5 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#0B6E4F]">
             ${COMMITMENT.badge}
           </span>
           <h2 class="mt-4 font-serif text-[26px] leading-tight text-[#1B1B1B] sm:text-[32px]">

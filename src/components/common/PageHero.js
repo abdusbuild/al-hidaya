@@ -6,7 +6,7 @@ export function createPageHero({ badge, title, subtitle }) {
       <div class="relative mx-auto max-w-5xl px-5 py-20 text-center sm:px-6 sm:py-28 lg:px-8">
         ${
           badge
-            ? `<span class="inline-flex items-center gap-2 rounded-full border border-white/25 bg-white/10 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-white backdrop-blur-sm">
+            ? `<span class="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-white backdrop-blur-sm">
                 ${badge}
               </span>`
             : ""

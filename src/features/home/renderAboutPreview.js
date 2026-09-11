@@ -12,7 +12,7 @@ export function renderAboutPreview() {
         <div class="reveal relative">
           <div class="relative aspect-[4/3] w-full overflow-hidden rounded-3xl bg-gradient-to-br from-[#0B6E4F] to-[#084a35] pattern-bg shadow-[0_25px_60px_rgba(11,110,79,.20)]">
             <div class="absolute inset-0 flex items-center justify-center">
-              <img src="/public/assets/logo-white.svg" alt="Al-Hidayah Foundation School emblem" class="h-40 w-40 opacity-90" />
+              <img src="/public/assets/logo-white.png" alt="Al-Hidayah Foundation School emblem" class="h-40 w-40 opacity-90" />
             </div>
           </div>
           <div class="absolute -bottom-6 -right-4 hidden rounded-2xl bg-white p-5 shadow-[0_15px_40px_rgba(0,0,0,.12)] sm:block">
@@ -22,7 +22,7 @@ export function renderAboutPreview() {
         </div>
 
         <div class="reveal">
-          <span class="inline-flex items-center gap-2 rounded-full border border-[#0B6E4F]/20 bg-[#0B6E4F]/5 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#0B6E4F]">
+          <span class="inline-flex items-center gap-2 rounded-full bg-[#0B6E4F]/5 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#0B6E4F]">
             ${ABOUT_PREVIEW.badge}
           </span>
           <h2 class="mt-4 font-serif text-[26px] leading-tight text-[#1B1B1B] sm:text-[32px] lg:text-[36px]">

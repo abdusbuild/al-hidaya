@@ -8,7 +8,7 @@ export function createSectionHeading({ badge, title, description, align = "cente
     <div class="flex flex-col ${alignClasses} max-w-2xl ${align === "left" ? "" : "mx-auto"}">
       ${
         badge
-          ? `<span class="inline-flex items-center gap-2 rounded-full border border-[#0B6E4F]/20 bg-[#0B6E4F]/5 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#0B6E4F]">
+          ? `<span class="inline-flex items-center gap-2 rounded-full bg-[#0B6E4F]/5 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#0B6E4F]">
               ${badge}
             </span>`
           : ""

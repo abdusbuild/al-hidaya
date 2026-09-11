@@ -13,7 +13,7 @@ export function createNavbar() {
         class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-6 lg:px-8"
       >
         <a href="/index.html" class="flex items-center gap-3">
-          <img src="/public/assets/logo.svg" alt="${SCHOOL.name}" class="h-11 w-11 sm:h-12 sm:w-12" />
+          <img src="/public/assets/logo-white.png" alt="${SCHOOL.name}" class="h-11 w-11 sm:h-12 sm:w-12" />
           <span class="flex flex-col leading-tight">
             <span class="font-serif text-[15px] font-semibold sm:text-[17px]">${SCHOOL.name}</span>
             <span class="text-[11px] font-medium uppercase tracking-wide text-[#E3A73B]">${SCHOOL.board}</span>

@@ -20,7 +20,7 @@ export function createFooter() {
         <div class="grid grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div class="lg:col-span-2">
             <div class="flex items-center gap-3">
-              <img src="/public/assets/logo-white.svg" alt="${SCHOOL.name}" class="h-14 w-14" />
+              <img src="/public/assets/logo-white.png" alt="${SCHOOL.name}" class="h-14 w-14" />
               <div>
                 <p class="font-serif text-[18px] text-white">${SCHOOL.name}</p>
                 <p class="text-[12px] font-medium uppercase tracking-wide text-[#E3A73B]">${SCHOOL.board}</p>

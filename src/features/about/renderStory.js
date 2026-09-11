@@ -10,7 +10,7 @@ export function renderStory() {
         <div class="grid grid-cols-1 gap-12 lg:grid-cols-2">
 
           <div class="reveal">
-            <span class="inline-flex items-center gap-2 rounded-full border border-[#0B6E4F]/20 bg-[#0B6E4F]/5 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#0B6E4F]">
+            <span class="inline-flex items-center gap-2 rounded-full bg-[#0B6E4F]/5 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#0B6E4F]">
               ${OUR_STORY.badge}
             </span>
             <h2 class="mt-4 font-serif text-[26px] leading-tight text-[#1B1B1B] sm:text-[32px] lg:text-[36px]">

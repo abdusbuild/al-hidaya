@@ -26,7 +26,7 @@ export function renderEligibilityAndDocs() {
         <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
 
           <div class="reveal rounded-2xl border border-[#E7E3DC] bg-white p-8">
-            <span class="inline-flex items-center gap-2 rounded-full border border-[#0B6E4F]/20 bg-[#0B6E4F]/5 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#0B6E4F]">
+            <span class="inline-flex items-center gap-2 rounded-full bg-[#0B6E4F]/5 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#0B6E4F]">
               ${ELIGIBILITY.badge}
             </span>
             <h3 class="mt-4 font-serif text-[22px] text-[#1B1B1B]">${ELIGIBILITY.title}</h3>
@@ -34,7 +34,7 @@ export function renderEligibilityAndDocs() {
           </div>
 
           <div class="reveal rounded-2xl border border-[#E7E3DC] bg-white p-8">
-            <span class="inline-flex items-center gap-2 rounded-full border border-[#E3A73B]/30 bg-[#E3A73B]/10 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#C98a24]">
+            <span class="inline-flex items-center gap-2 rounded-full bg-[#E3A73B]/10 px-4 py-1.5 text-[12px] font-semibold uppercase tracking-wide text-[#C98a24]">
               ${DOCUMENTS_REQUIRED.badge}
             </span>
             <h3 class="mt-4 font-serif text-[22px] text-[#1B1B1B]">${DOCUMENTS_REQUIRED.title}</h3>
