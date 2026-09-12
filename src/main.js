@@ -7,6 +7,8 @@ import { initAcademicsPage } from "./pages/academicspage.js";
 import { initAdmissionsPage } from "./pages/admissionspage.js";
 import { initGalleryPage } from "./pages/gallerypage.js";
 import { initContactPage } from "./pages/contactpage.js";
+import { initPrivacyPage } from "./pages/privacypage.js";
+import { initTermsPage } from "./pages/termspage.js";
 
 import { createFooter, initFooterYear } from "./components/footer/index.js";
 
@@ -39,6 +41,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
     case "contact":
       initContactPage();
+      break;
+
+    case "privacy-policy":
+      initPrivacyPage();
+      break;
+
+    case "terms-and-conditions":
+      initTermsPage();
       break;
   }
 

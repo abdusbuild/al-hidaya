@@ -2,7 +2,7 @@ export const ACADEMICS_HERO = {
   badge: "Academics",
   title: "Islamic Learning Meets CBSE Academics",
   subtitle:
-    "A structured curriculum from Nursery to Middle School, combining Qur'an, Tajweed and Islamic Studies with a full CBSE-pattern academic program.",
+    "A structured curriculum from Nursery to Class 5, combining Qur'an, Tajweed and Islamic Studies with a full CBSE-pattern academic program.",
 };
 
 export const CURRICULUM_STAGES = [
@@ -19,13 +19,6 @@ export const CURRICULUM_STAGES = [
     classes: "Class 1 – 5",
     subjects: ["Qur'an with Tajweed", "Islamic Studies", "English, Hindi & Urdu", "Mathematics, EVS & Science", "Arabic Language Basics"],
     description: "Core CBSE-pattern subjects taught alongside daily Qur'an recitation and Islamic Studies.",
-  },
-  {
-    icon: "graduation-cap",
-    stage: "Middle School",
-    classes: "Class 6 – 8",
-    subjects: ["Qur'an with Tajweed & Tafseer basics", "Islamic Studies", "Science & Mathematics", "Social Science, English & Hindi", "Arabic & Urdu"],
-    description: "Deeper academic subjects and Islamic learning that prepare students for higher secondary classes.",
   },
 ];
 
@@ -58,7 +51,7 @@ export const SCHOOL_INFO_NOTES = {
   title: "Medium, Timings & Uniform",
   notes: [
     { icon: "languages", title: "Medium of Instruction", description: "English medium, with dedicated periods for Urdu, Arabic and Hindi." },
-    { icon: "clock", title: "School Timings", description: "School timings may vary by class and session. Please contact the school office for current timings." },
+    { icon: "clock", title: "School Timings", description: "School runs from 7:30 AM to 12:30 PM, Monday to Saturday. Closed on Sundays." },
     { icon: "shirt", title: "Uniform", description: "Students wear a prescribed school uniform, in line with Islamic dress guidelines. Details are shared at the time of admission." },
   ],
 };

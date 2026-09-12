@@ -25,7 +25,11 @@ export function renderDetailsAndMap() {
                     .map(
                       (line) =>
                         `<p class="mt-1 text-[14px] leading-6 text-[#666666]">${
-                          detail.href ? `<a href="${detail.href}" target="_blank" rel="noopener noreferrer" class="hover:text-[#0B6E4F]">${line}</a>` : line
+                          detail.href
+                            ? detail.href.startsWith("tel:")
+                              ? `<a href="${detail.href}" class="hover:text-[#0B6E4F]">${line}</a>`
+                              : `<a href="${detail.href}" target="_blank" rel="noopener noreferrer" class="hover:text-[#0B6E4F]">${line}</a>`
+                            : line
                         }</p>`
                     )
                     .join("")}

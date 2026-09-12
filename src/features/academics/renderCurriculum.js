@@ -18,7 +18,7 @@ export function renderCurriculum() {
           })}
         </div>
 
-        <div class="reveal mt-12 grid gap-6 lg:grid-cols-3">
+        <div class="reveal mt-12 grid gap-6 lg:grid-cols-2">
           ${CURRICULUM_STAGES.map((stage) =>
             createProgramCard({
               icon: stage.icon,

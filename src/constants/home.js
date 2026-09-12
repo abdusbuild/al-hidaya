@@ -1,6 +1,7 @@
 export const HERO_SLIDES = [
   {
     id: 0,
+    image: "/public/assets/3.png",
     badge: "Admissions Open",
     title: "Where Faith Meets Learning",
     subtitle:
@@ -10,6 +11,7 @@ export const HERO_SLIDES = [
   },
   {
     id: 1,
+    image: "/public/assets/5.png",
     badge: "Boys & Girls Sections",
     title: "Qur'an, Character & Classroom Excellence",
     subtitle:
@@ -19,6 +21,7 @@ export const HERO_SLIDES = [
   },
   {
     id: 2,
+    image: "/public/assets/6.png",
     badge: "Rooted in the Community",
     title: "A School Built on Guidance",
     subtitle:
@@ -35,7 +38,7 @@ export const ABOUT_PREVIEW = {
     "Al-Hidayah Foundation School is an Islamic cum English medium school based on the CBSE pattern, serving the families of Nawadih, Aurangabad. We believe every child deserves an education that strengthens both their faith and their future.",
   points: [
     "Qur'an, Tajweed & Islamic Studies taught daily",
-    "CBSE-pattern academics from Nursery to Middle School",
+    "CBSE-pattern academics from Nursery to Class 5",
     "Separate, caring sections for boys and girls",
   ],
   ctaLabel: "More About Us",
@@ -98,7 +101,7 @@ export const PROGRAM_PREVIEW = {
   badge: "Our Programs",
   title: "A Learning Path for Every Age",
   description:
-    "From early years to middle school, each stage blends Islamic foundations with CBSE-pattern academics.",
+    "From early years to Class 5, each stage blends Islamic foundations with CBSE-pattern academics.",
   programs: [
     {
       icon: "baby",
@@ -113,13 +116,6 @@ export const PROGRAM_PREVIEW = {
       title: "Class 1 – 5",
       description:
         "Qur'an with Tajweed, Islamic Studies and a full CBSE-pattern curriculum across core subjects.",
-    },
-    {
-      icon: "graduation-cap",
-      stage: "Middle School",
-      title: "Class 6 – 8",
-      description:
-        "Deeper academic subjects alongside Arabic, Urdu and Islamic Studies, building toward higher classes.",
     },
   ],
 };
@@ -158,7 +154,7 @@ export const FAQS = [
   {
     question: "What age groups / classes does the school admit?",
     answer:
-      "We currently admit students from Nursery through the middle school classes. Please contact us for the exact classes open for admission this session.",
+      "We currently admit students from Nursery through Class 5. Please contact us for the exact classes open for admission this session.",
   },
   {
     question: "Where is the school located?",
@@ -168,7 +164,7 @@ export const FAQS = [
   {
     question: "How can I get details about fees and school timings?",
     answer:
-      "Fees, timings and seat availability are best confirmed directly with the school office or via our Instagram page, as these may vary by class and session.",
+      "School runs from 7:30 AM to 12:30 PM, Monday to Saturday, and remains closed on Sundays. For fees and seat availability, please contact the school office or reach out via our Instagram page, as these may vary by class and session.",
   },
   {
     question: "How do I apply for admission?",

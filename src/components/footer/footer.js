@@ -46,10 +46,10 @@ export function createFooter() {
 
         <div class="mt-12 flex flex-col gap-4 border-t border-white/10 pt-6 text-[12.5px] text-white/55 sm:flex-row sm:items-center sm:justify-between">
           <p>© <span id="currentYear"></span> ${SCHOOL.name}. All rights reserved.</p>
-          <p class="flex items-center gap-2">
-            <i data-lucide="map-pin" class="h-3.5 w-3.5 text-[#E3A73B]"></i>
-            ${SCHOOL.address}
-          </p>
+          <div class="flex flex-col gap-3 sm:flex-row sm:gap-5">
+            <a href="/pages/privacy-policy.html" class="transition hover:text-[#E3A73B]">Privacy Policy</a>
+            <a href="/pages/terms-and-conditions.html" class="transition hover:text-[#E3A73B]">Terms & Conditions</a>
+          </div>
         </div>
       </div>
     </footer>

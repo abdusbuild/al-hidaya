@@ -1,3 +1,5 @@
+import { SCHOOL } from "./navigation.js";
+
 export const CONTACT_HERO = {
   badge: "Contact Us",
   title: "We'd Love to Hear From You",
@@ -6,6 +8,12 @@ export const CONTACT_HERO = {
 };
 
 export const CONTACT_DETAILS = [
+  {
+    icon: "phone",
+    title: "Call Us",
+    lines: [`Md. Rizwan (Principal)`, SCHOOL.phone],
+    href: SCHOOL.phoneHref,
+  },
   {
     icon: "map-pin",
     title: "Address",
@@ -20,7 +28,7 @@ export const CONTACT_DETAILS = [
   {
     icon: "clock",
     title: "Office Hours",
-    lines: ["Sunday – Friday, school hours", "(Contact office for exact timings)"],
+    lines: ["Monday – Saturday, 7:30 AM – 12:30 PM", "Closed on Sunday"],
   },
 ];
 

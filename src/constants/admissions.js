@@ -2,7 +2,7 @@ export const ADMISSIONS_HERO = {
   badge: "Admissions",
   title: "Join the Al-Hidayah Family",
   subtitle:
-    "We welcome boys and girls from Nursery to Middle School. Follow the simple steps below to begin your child's admission.",
+    "We welcome boys and girls from Nursery to Class 5. Follow the simple steps below to begin your child's admission.",
 };
 
 export const ADMISSION_STEPS = [
@@ -48,7 +48,7 @@ export const ELIGIBILITY = {
   title: "Who Can Apply",
   points: [
     "Open to both boys and girls, admitted into their respective sections.",
-    "Admission is offered from Nursery through the Middle School classes, subject to seat availability.",
+    "Admission is offered from Nursery through Class 5, subject to seat availability.",
     "Minimum age criteria for Nursery/KG follow standard school-entry norms; please confirm the exact age with the school office.",
     "Admission to Class 2 and above may be subject to a basic interaction with the student.",
   ],

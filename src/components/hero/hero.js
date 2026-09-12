@@ -1,4 +1,5 @@
 import { HERO_SLIDES } from "../../constants/home.js";
+import { SCHOOL } from "../../constants/navigation.js";
 import { createButton } from "../common/Button.js";
 
 const SLIDE_TONES = [
@@ -15,7 +16,12 @@ function createSlide(slide, index) {
       }"
       data-slide="${index}"
     >
-      <div class="absolute inset-0 bg-black/15"></div>
+      ${
+        slide.image
+          ? `<img src="${slide.image}" alt="" class="absolute inset-0 h-full w-full object-cover" style="object-position: ${slide.imagePosition || "center"};" />`
+          : ""
+      }
+      <div class="absolute inset-0 bg-black/55"></div>
 
       <div
         class="
@@ -35,7 +41,7 @@ function createSlide(slide, index) {
 
         <div class="mt-8 flex flex-wrap items-center gap-4">
           ${createButton({ label: slide.ctaLabel, href: slide.ctaHref, variant: "secondary", icon: "arrow-right" })}
-          ${createButton({ label: "Call the School", href: "/pages/contact.html", variant: "outline" })}
+          ${createButton({ label: "Call the School", href: SCHOOL.phoneHref, variant: "outline" })}
         </div>
       </div>
     </div>

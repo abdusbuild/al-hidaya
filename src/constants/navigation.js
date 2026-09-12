@@ -19,4 +19,6 @@ export const SCHOOL = {
   pincode: "824101",
   instagram: "https://www.instagram.com/alhidayahfoundationschool/",
   mapQuery: "Urdu Middle School, Nawadih, Aurangabad, Bihar, India 824101",
+  phone: "+91 98523 53696",
+  phoneHref: "tel:+919852353696",
 };
